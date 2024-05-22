@@ -1,0 +1,114 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.half {
+    flex: 1;
+    height: 100%;
+}
+
+.left {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    background-color: rgb(101, 10, 89);
+}
+
+.signin {
+    color: rgb(101, 10, 89);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: 2px solid rgb(141, 22, 117);
+    color: rgb(141, 22, 117);
+    padding: 20px 80px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.transparent-button:hover {
+    background-color: rgb(141, 22, 117);
+    color: white;
+}
+
+.login-button {
+    background-color: rgb(141, 22, 117);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.or-text {
+    margin-top: 10px; /* Added margin here */
+    color: rgb(101, 10, 89);
+}
+.social-icons {
+    display: flex;
+}
+
+.social-icons i {
+    margin-right: 10px;
+    margin-top: 10px; 
+    font-size: 24px;
+}
+.new-to-brand {
+    position: absolute;
+    top: 20%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.lorem-text {
+    position: absolute;
+    top: 30%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.signup-button {
+    background-color: rgb(141, 22, 117);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 270px; /* Added margin-top */
+    margin-left: 45%;
+}
+.WORKING 
+{
+    position: absolute;
+    top: 67%;
+    right: 11%; 
+    transform: translateY(-50%);
+
+}
+.WORKING img
+{
+    width: 400px; 
+    height: auto; 
+
+}
